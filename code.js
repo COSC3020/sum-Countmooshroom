@@ -1,5 +1,7 @@
 function sum(a) {
-    var sum = a[0];
+    
+    //I removed the item a[0] so it isn't added twice
+    var sum = 0;
     for(var i = 0; i < a.length; i++) {
         sum += a[i];
     }
